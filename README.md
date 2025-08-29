@@ -61,7 +61,7 @@ I am and will always be tinkering, experimenting and building through learning -
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 </p>
 
-**AI & Tools**
+**AI, Tools & Auth**
 <p>
 <img src="https://img.shields.io/badge/Generative_AI-FF6B6B?style=for-the-badge&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=for-the-badge&logo=vercel&logoColor=white" />
@@ -69,7 +69,9 @@ I am and will always be tinkering, experimenting and building through learning -
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
 <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
-<img src="https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" />
+<img src="https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" title="Authentication platform" />
+<img src="https://img.shields.io/badge/NextAuth-333333?style=for-the-badge&logo=nextauth&logoColor=white" title="Authentication for Next.js" />
+<img src="https://img.shields.io/badge/BetterAuth-1E1E1E?style=for-the-badge&logo=auth0&logoColor=white" title="Authentication platform" />
 </p>
  
 ## 📫 Let's Connect
