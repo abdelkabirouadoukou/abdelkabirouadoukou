@@ -73,8 +73,9 @@ I am and will always be tinkering, experimenting and building through learning -
 <img src="https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" title="Authentication platform" />
 <img src="https://img.shields.io/badge/NextAuth-333333?style=for-the-badge&logo=nextauth&logoColor=white" title="Authentication for Next.js" />
 <img src="https://img.shields.io/badge/BetterAuth-1E1E1E?style=for-the-badge&logo=auth0&logoColor=white" title="Authentication platform" />
+<img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" title="API testing & collaboration" />
 </p>
- 
+
 ## 📫 Let's Connect
  
 Feel free to reach out for collaborations, freelance projects, or just to chat about tech! I'm always online and ready to help with web development projects.
