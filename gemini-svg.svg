@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="100%" height="100%" style="background: #000000; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; border-radius: 12px; border: 1px solid #333333; box-sizing: border-box;">
+  
+  <style>
+    .title-text { font-weight: 800; fill: #ffffff; letter-spacing: -0.5px; }
+    .sub-text { fill: #888888; font-size: 13px; font-weight: 500; }
+    .card-bg { fill: #050505; stroke: #262626; stroke-width: 1; rx: 8px; }
+    .code-text { font-family: 'JetBrains Mono', 'Fira Code', SFMono-Regular, Consolas, monospace; font-size: 12px; }
+  </style>
+
+  <!-- Canvas Background -->
+  <rect width="880" height="360" rx="12" fill="#000000" />
+
+  <!-- Left Column: Identity & Quote -->
+  <g transform="translate(45, 45)">
+    <!-- Header -->
+    <text x="0" y="32" class="code-text" fill="#ffffff" font-size="28" font-weight="bold">&gt;_</text>
+    <text x="45" y="30" class="title-text" font-size="28">Abdelkabir</text>
+    <text x="45" y="52" class="sub-text">Full-Stack Engineer &amp; Open-Source Builder</text>
+
+    <!-- Replaced Badges with Quote Card -->
+    <g transform="translate(0, 85)">
+      <rect x="0" y="0" width="360" height="75" class="card-bg" />
+      <path d="M 0 0 L 0 75" stroke="#ffffff" stroke-width="3" />
+      <text x="16" y="28" fill="#e5e5e5" font-size="13" font-style="italic">"Crafting full-stack web applications,"</text>
+      <text x="16" y="48" fill="#e5e5e5" font-size="13" font-style="italic">"modern frameworks, and AI workflows."</text>
+    </g>
+
+    <!-- Links / Socials -->
+    <g transform="translate(0, 190)">
+      <text x="0" y="20" fill="#ffffff" font-size="12" class="code-text">🌐 abdelkabir.me</text>
+      <text x="150" y="20" fill="#888888" font-size="12" class="code-text">⚡ LeetCode: abdelkabirouadoukou</text>
+      <text x="0" y="50" fill="#888888" font-size="12" class="code-text">𝕏 @khabzox</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Code Window -->
+  <g transform="translate(435, 45)">
+    <!-- Expanded Terminal Box (width increased to 400px to give ample padding to the border) -->
+    <rect x="0" y="0" width="400" height="270" rx="8" fill="#050505" stroke="#262626" stroke-width="1"/>
+    
+    <!-- Window Controls -->
+    <circle cx="20" cy="18" r="4" fill="#333333" />
+    <circle cx="34" cy="18" r="4" fill="#333333" />
+    <circle cx="48" cy="18" r="4" fill="#333333" />
+    <text x="150" y="22" fill="#666666" class="code-text" font-size="11">developer-stack.ts</text>
+    <line x1="0" y1="36" x2="400" y2="36" stroke="#171717" stroke-width="1" />
+
+    <!-- Code Block -->
+    <g transform="translate(18, 58)" class="code-text">
+      <!-- Line 1: const engineer = { -->
+      <text x="0" y="15" fill="#888888">const</text>
+      <text x="42" y="15" fill="#ffffff">engineer</text>
+      <text x="107" y="15" fill="#888888">=</text>
+      <text x="120" y="15" fill="#ffffff">{</text>
+
+      <!-- Line 2: focus: "Full-Stack & Frameworks", -->
+      <text x="15" y="38" fill="#888888">focus</text>
+      <text x="52" y="38" fill="#ffffff">:</text>
+      <text x="62" y="38" fill="#888888">"Full-Stack &amp; Frameworks"</text>
+      <text x="252" y="38" fill="#ffffff">,</text>
+
+      <!-- Line 3: toolkit: [ -->
+      <text x="15" y="61" fill="#888888">toolkit</text>
+      <text x="67" y="61" fill="#ffffff">:</text>
+      <text x="77" y="61" fill="#ffffff">[</text>
+
+      <!-- Array Items -->
+      <text x="30" y="82" fill="#888888">"Bun Frameworks"</text>
+      <text x="145" y="82" fill="#ffffff">,</text>
+      <text x="30" y="103" fill="#888888">"AI Agent Pipelines"</text>
+      <text x="177" y="103" fill="#ffffff">,</text>
+      <text x="30" y="124" fill="#888888">"Open-Source Tools"</text>
+
+      <!-- Closing Array -->
+      <text x="15" y="145" fill="#ffffff">]</text>
+      <text x="22" y="145" fill="#ffffff">,</text>
+
+      <!-- Line 4: status: "Building & Shipping" -->
+      <text x="15" y="168" fill="#888888">status</text>
+      <text x="60" y="168" fill="#ffffff">:</text>
+      <text x="70" y="168" fill="#888888">"Building &amp; Shipping"</text>
+
+      <!-- Close Object -->
+      <text x="0" y="191" fill="#ffffff">};</text>
+
+      <!-- Command Execution (Fits comfortably inside the expanded container) -->
+      <text x="0" y="218" fill="#ffffff">&gt; engineer.shipNextRelease();</text>
+      
+      <!-- Blinking Cursor -->
+      <rect x="247" y="206" width="8" height="15" fill="#ffffff" opacity="0.8">
+        <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+      </rect>
+    </g>
+  </g>
+</svg>
