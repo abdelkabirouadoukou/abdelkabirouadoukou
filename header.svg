@@ -35,7 +35,7 @@
 
   <!-- Right Column: Code Window -->
   <g transform="translate(450, 45)">
-    <!-- Terminal Box (Expanded width: 440px, height: 280px) -->
+    <!-- Terminal Box (Expanded Width & Height) -->
     <rect x="0" y="0" width="440" height="280" rx="8" fill="#050505" stroke="#262626" stroke-width="1"/>
     
     <!-- Window Controls -->
@@ -83,7 +83,7 @@
       <!-- Close Object -->
       <text x="0" y="191" fill="#ffffff">};</text>
 
-      <!-- Command Execution (Fits with 100px+ of right margin) -->
+      <!-- Command Execution -->
       <text x="0" y="218" fill="#ffffff">&gt; engineer.shipNextRelease();</text>
       
       <!-- Blinking Cursor -->
@@ -93,17 +93,3 @@
     </g>
   </g>
 </svg>
-
-### 🛠️ What I'm Building
-- **Frameworks & Runtimes:** Developing full-stack developer infrastructure natively on Bun & TypeScript.
-- **AI Tooling & Workflows:** Building agentic pipelines and developer utilities.
-- **Open-Source:** Active contributor to developer tooling and web libraries.
-
----
-
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abdelkabirouadoukou&show_icons=true&theme=dark&bg_color=050505&border_color=262626&text_color=888888&title_color=ffffff&icon_color=ffffff" height="150" alt="stats card" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abdelkabirouadoukou&layout=compact&theme=dark&bg_color=050505&border_color=262626&text_color=888888&title_color=ffffff" height="150" alt="top languages" />
-</p>
