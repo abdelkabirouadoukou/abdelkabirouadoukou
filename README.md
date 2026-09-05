@@ -1,1 +1,1 @@
-![Abdelkabir Header](./gemini-svg.svg)
+![Abdelkabir Header](./header.svg)
